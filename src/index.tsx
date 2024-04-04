@@ -320,7 +320,7 @@ export const DonutChart = ({
         </Svg>
         <Animated.View style={_getLabelWrapperStyle()}>
           <Text style={_getLabelValueStyle(displayValue?.color)}>
-            {displayValue?.value}
+            {`${displayValue?.value}%`}
           </Text>
           <Text style={_getLabelTitleStyle(displayValue?.color)}>
             {displayValue?.name}
